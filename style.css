@@ -65,6 +65,8 @@ color: #1b1b1b;
          margin-bottom: 15px;
     }
 
+
+
     .btn { width: 110px;
          background: #0067b8; 
          color: #fff; 
@@ -126,5 +128,8 @@ max-width:400px;
     border-radius:none;             
   
     }
+ img#offbackbtn{
+dislay:none;
+}
   }
     
