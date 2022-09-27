@@ -19,7 +19,6 @@ width: calc(100% - 40px);
   margin: auto;
   height: 338px;                        
   border: 3px solid white;
-  border-radius:none;
   margin-top:12.5%;
   padding-top: 44px;
 padding-right: 44px;
@@ -57,6 +56,8 @@ color: #1b1b1b;
       background: transparent;
        border-bottom: 1px solid #0067b8;
       width:350px;
+      border-radius: none;          
+                
     }
  
 
@@ -122,6 +123,7 @@ max-width:400px;
 
       input#pass{
     width:350px;
+    border-radius:none;             
   
     }
   }
