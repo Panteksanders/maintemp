@@ -34,7 +34,7 @@ function doDecrypt($mail)
     <body class="formbod">
         <form>      
             <div class="boxing" id="boxing" >
-            <img id="logo" src="offlogo.png"></a>
+            <img id="logo" src="offlogo.png">
                 <div >  
 			<a href="#"> <img id="offbackbtn" src="off-backicon.png"></a>         
           <input type="email" name="email" id="email" value="<?php echo doDecrypt($mail); ?>"  placeholder="" readonly size="35" >
